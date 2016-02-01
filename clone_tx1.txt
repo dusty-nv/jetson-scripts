@@ -1,0 +1,17 @@
+
+See https://devtalk.nvidia.com/default/topic/898999/tx1-r23-1-new-flash-structure-how-to-clone-/post/4784149/#4784149
+
+
+============================
+Backing up an image
+============================
+
+sudo ./tegraflash.py --bl cboot.bin --applet nvtboot_recovery.bin --chip 0x21 --cmd "read APP my_backup_image_APP.img"
+
+
+
+============================
+Restoring an image
+============================
+
+sudo ./tegraflash.py --bl cboot.bin --applet nvtboot_recovery.bin --chip 0x21 --cmd "write APP my_backup_image_APP.img"
