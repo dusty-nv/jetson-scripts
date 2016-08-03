@@ -4,6 +4,10 @@
 #        go to 'Security & Privacy' settings -> Search tab
 #        and disable Online search
 
+gsettings set com.canonical.Unity.Lenses disabled-scopes "['more_suggestions-amazon.scope', \
+    'more_suggestions-u1ms.scope', 'more_suggestions-populartracks.scope', 'music-musicstore.scope', \
+    'more_suggestions-ebay.scope', 'more_suggestions-ubuntushop.scope', 'more_suggestions-skimlinks.scope']"
+
 sudo apt-get remove --purge unity-lens-friends
 sudo apt-get remove --purge unity-lens-music
 sudo apt-get remove --purge unity-lens-music
