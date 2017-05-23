@@ -31,7 +31,7 @@ sudo python setup.py develop
 # Verify CUDA (from python interactive terminal)
 # import torch
 # print(torch.cuda.is_available())
-# a = torch.cuda.FloatTensor(2)
+# a = torch.cuda.FloatTensor(2).zero_()
 # print(a)
 # b = torch.randn(2).cuda()
 # print(b)
