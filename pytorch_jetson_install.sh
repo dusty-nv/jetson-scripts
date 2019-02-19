@@ -14,7 +14,7 @@ pip --version
 # pip 9.0.1 from /home/ubuntu/.local/lib/python2.7/site-packages (python 2.7)
 
 # clone pyTorch repo
-git clone http://github.com/pytorch/pytorch
+git clone --recursive https://github.com/pytorch/pytorch
 cd pytorch
 
 # install prereqs
